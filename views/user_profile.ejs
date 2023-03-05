@@ -2,3 +2,9 @@
         <h1>
             Codeial / Profile Page
         </h1>
+        <p>Name: <%= user.name %></p>
+        <p>Email: <%= user.email %></p>
+
+        <form action="/users/signout" method="POST">
+            <button type="submit" >Sign Out</button>
+        </form>
