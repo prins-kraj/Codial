@@ -20,7 +20,7 @@ module.exports.create = function (req, res) {
     });
 }
 
-
+// comment delete by a user if user logged in
 module.exports.destroy = function (req, res) {
     Comment.findById(req.params.id, function (err, comment) {
         if (comment.user == req.user.id) {
