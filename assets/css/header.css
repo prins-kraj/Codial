@@ -5,6 +5,8 @@
     background: #2196f3;
     color: white;
     box-shadow: 1px 1px 1px 1px lightgrey;
+    /* position: fixed;
+    width: 100%; */
 }
 #layout-header nav .mini-logo p {
     margin: 5px;

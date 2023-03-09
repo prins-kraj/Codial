@@ -4,6 +4,10 @@
     padding: 5px 10px;
     display: flex;
     justify-content: flex-start;
+    /* position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%; */
 }
 
 #layout-footer a{
