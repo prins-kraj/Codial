@@ -3,6 +3,8 @@
         Codial | Profile Page
     </h1>
 
+    
+
 
     <% if(user.id == profile_user.id){ %>
         <!-- if user matches then shoe the form of update profile -->
@@ -13,6 +15,7 @@
             <input type="submit" value="Update">
         </form>
         
+        <img src="<%= user.avatar %>" alt="<%= user.name %>" width="100%">
         <p>Name: <%= profile_user.name %></p>
         <p>Email: <%= profile_user.email %></p>
     <% }else{ %>
