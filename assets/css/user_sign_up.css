@@ -1,0 +1,50 @@
+#sign-up{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid blueviolet;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25vh;
+}
+
+/* #sign-up-form{
+    width: 100%;
+
+} */
+
+#sign-up-header{
+    margin-top: -10px;
+}
+
+.input-tag{
+    margin: 5px;
+    width: 94%;
+    height: 20px;
+    
+}
+
+#button-tag{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon{
+    margin-top: 10px;
+}
+
+#icon a i{
+    color: red;
+    font-size: 30px;
+}

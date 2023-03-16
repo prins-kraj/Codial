@@ -1,12 +1,36 @@
-<h1>Sign In</h1>
+<!-- <h1>Sign In</h1>
 
 <form action="/users/create-session" method="POST">
     <input type="email" name="email" placeholder="Your Email" required>
     <input type="password" name="password" placeholder="Your Password" required>
-    <!-- <button>Sign In</button> -->
     <input type="submit" value="Sign In">
 </form>
 
 <p>
     <a href="/users/auth/google">Google Sign In/ Sign Up</a>
-</p>
+</p> -->
+
+
+<div id="sign-in">
+    <div id="sign-in-container">
+        <div id="sign-in-header">
+            <h1>Sign Up</h1>
+
+        </div>
+
+    <div id="sign-in-form">
+            <form action="/users/create" method="POST">
+                <input class="input-tag" type="email" name="email" placeholder="Your Email" required>
+                <input class="input-tag" type="password" name="password" placeholder="Password" required>
+                <!-- <button>Sign Up</button> -->
+                <div id="button-tag">
+                    <input class="" type="submit" value="Sign In">
+                </div>
+            </form>
+    </div>
+
+        <div id="icon">
+            <a href="/users/auth/google"><i class="fa-brands fa-google"></i></a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+#sign-in{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-in-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid blueviolet;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25vh;
+}
+
+/* #sign-in-form{
+    width: 100%;
+
+} */
+
+#sign-in-header{
+    margin-top: -10px;
+}
+
+.input-tag{
+    margin: 5px;
+    width: 94%;
+    height: 20px;
+    
+}
+
+#button-tag{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon{
+    margin-top: 10px;
+}
+
+#icon a i{
+    color: red;
+    font-size: 30px;
+}
