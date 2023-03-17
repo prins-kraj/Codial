@@ -19,15 +19,23 @@
     </head>
 
     <body>
-        <%- include('_header'); %>
+        <div id="body-container">
+            <div id="header-content">
+                <%- include('_header'); %>
+            </div>
 
-        <main id="layout-main">
-            <%- body %>
+            <div id="main-content">
+                <main id="layout-main">
+                    <%- body %>
 
-        </main>
+                </main>
+            </div>
 
 
-        <%- include('_footer'); %>
+            <div id="footer-content">
+                <%- include('_footer'); %>
+            </div>
+        </div>
 
         <%- script %>
 

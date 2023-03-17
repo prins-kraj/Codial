@@ -1,3 +1,27 @@
 body{
     background-color: lightblue;
 }
+
+#profile-page-container{
+    height: 100vh;
+
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+}
+
+.image-container{
+    width: 50%;
+}
+
+.user-details-container{
+    width: 50%;
+}
+
+.image-container img{
+    width: 50%;
+    height: inherit;
+}

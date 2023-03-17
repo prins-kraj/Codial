@@ -4,5 +4,11 @@ body{
 }
 
 body #layout-main {
-    height: 80%;
+    height: 100%;
 }
+
+#body-container{
+    display: flex;
+    flex-direction: column;
+}
+
